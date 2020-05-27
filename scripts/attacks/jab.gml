@@ -32,7 +32,7 @@ set_window_value(AT_JAB, 1, HG_WINDOW_TYPE, 1); // WUT!?
 set_hitbox_value(AT_JAB, 1, HG_WINDOW, 2); // the window for the attack is 2 (frames?)
 set_hitbox_value(AT_JAB, 1, HG_LIFETIME, 5); // sets hitbox to last 5 frames
 set_hitbox_value(AT_JAB, 1, HG_HITBOX_X, 20); // hitbox placed at x = 20
-set_hitbox_value(AT_JAB, 1, HG_HITBOX_Y, -30); // Places hitbox at y = -35 (based on player center)
+set_hitbox_value(AT_JAB, 1, HG_HITBOX_Y, -35); // Places hitbox at y = -35 (based on player center)
 set_hitbox_value(AT_JAB, 1, HG_WIDTH, 40); // hitbox width = 40
 set_hitbox_value(AT_JAB, 1, HG_HEIGHT, 80); // hitbox HEIGHT
 set_hitbox_value(AT_JAB, 1, HG_PRIORITY, 2); // hitbox priority, 10 is highest
