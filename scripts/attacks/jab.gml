@@ -6,7 +6,7 @@ set_attack_value(AT_JAB, AG_NUM_WINDOWS, 3); // set the number of windows
 // Set window 1 (startup)
 set_window_value(AT_JAB, 1, AG_WINDOW_TYPE, 1); // default type
 set_window_value(AT_JAB, 1, AG_WINDOW_LENGTH, 2); // duration of the window
-set_window_value(AT_JAB, 1, AG_WINDOW_ANIM_FRAMES, 1) // number of animation frames to display
+set_window_value(AT_JAB, 1, AG_WINDOW_ANIM_FRAMES, 1); // number of animation frames to display
 set_window_value(AT_JAB, 1, AG_WINDOW_HAS_SFX, 1); // Window has sound effect
 set_window_value(AT_JAB, 1, AG_WINDOW_SFX, asset_get("sfx_swipe_weak1"));
 
@@ -18,7 +18,7 @@ set_window_value(AT_JAB, 2, AG_WINDOW_ANIM_FRAME_START, 1); // Where the window 
 
 // Set window 3 (endlag)
 set_window_value(AT_JAB, 3, AG_WINDOW_TYPE, 1); // default type
-set_window_value(AT_JAB, 3, AG_WINDOW_LENGTH, 6) // how long the window lasts
+set_window_value(AT_JAB, 3, AG_WINDOW_LENGTH, 6); // how long the window lasts
 set_window_value(AT_JAB, 3, AG_WINDOW_ANIM_FRAMES, 1); // how many frames of animation to display
 set_window_value(AT_JAB, 3, AG_WINDOW_ANIM_FRAME_START, 2); // when the window begins
 set_window_value(AT_JAB, 3, AG_WINDOW_HAS_WHIFFLAG, 1); // duration of window 1.5x length IF not hit
